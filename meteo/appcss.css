@@ -1,0 +1,111 @@
+
+body{
+     background-image: url('./background.jpg');
+     color: aliceblue;
+     background-size: cover; 
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+}
+.weather-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color :aliceblue;
+    flex-direction: column;
+    padding: 20px;
+
+  }
+  
+  .weather-card {
+   
+    border-radius: 8px;
+    width: 300px;
+    height: 488px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid white;
+    background-image: url('./background.jpg');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    padding: 20px;
+    box-shadow:
+       /* inset 0 -1em 2em rgb(0, 0, 75),  */
+      0 0 0 1px white,
+      1em 1em 9em rgb(1, 1, 66);
+
+  
+  }
+  
+  .weather-card h2 {
+    margin-bottom: 10px;
+    color: whitesmoke;
+  }
+  
+  .weather-card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+    background: none;
+  }
+  
+  .weather-card p {
+    margin: 5px 0;
+    color:  whitesmoke;
+  }
+  
+  .times-of-day {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .times-of-day h3 {
+    margin-bottom: 10px;
+    color: whitesmoke;
+  }
+
+  option{
+    background-color: rgb(0, 0, 49);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+  }
+  select {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    color: whitesmoke;
+    background-image: url('./background.jpg');
+    background-size: cover; 
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+  }
+  
+.info-w{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.img-w{
+    background-color: white;
+    background: none;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.degre-text{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img{
+  width: 10px ;
+  height: 10px ;
+}
